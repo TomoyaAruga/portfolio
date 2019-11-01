@@ -1,0 +1,71 @@
+.forms {
+  margin: 100px 0 0 0;
+  color: #000;
+  text-align: center;
+}
+
+.forms p {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  border-left: solid 3px #e0505d;
+}
+
+input, textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+}
+
+.btn {
+  text-align: center;
+}
+
+button[type="submit"] {
+  background: #e0505c;
+  border: none;
+  color: white;
+  font-size:15px;
+  font-weight:bold;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+button[type="reset"]{
+  background: #aaa;
+  border: none;
+  color: white;
+  font-size:15px;
+  font-weight:bold;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
